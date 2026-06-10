@@ -1,0 +1,38 @@
+BRAWL META - ZIP DEFINITIU
+
+COM PUJAR-HO A GITHUB + VERCEL
+
+1) Descomprimeix aquest zip.
+2) A GitHub, entra al repo brawlmeta.
+3) Esborra o substitueix els fitxers antics.
+4) Puja ELS FITXERS I CARPETES DE DINS del zip, no el zip sencer.
+5) Fes Commit changes.
+6) Vercel farà deploy automàtic.
+
+IMPORTANT:
+- Ara NO hi ha 104 fitxers de brawlers.
+- Tots els builds funcionen amb UNA sola pàgina:
+  build.html?b=shelly
+  build.html?b=bolt
+  build.html?b=damian
+  build.html?b=starr-nova
+
+PROVES DESPRÉS DEL DEPLOY:
+https://brawlmeta.vercel.app/index.html
+https://brawlmeta.vercel.app/tier.html
+https://brawlmeta.vercel.app/top10.html
+https://brawlmeta.vercel.app/build.html?b=shelly
+https://brawlmeta.vercel.app/build.html?b=bolt
+https://brawlmeta.vercel.app/build.html?b=damian
+https://brawlmeta.vercel.app/build.html?b=starr-nova
+
+SEO:
+- sitemap.xml inclou pàgines principals i 104 URLs de build.
+- robots.txt apunta al sitemap.
+- cada pàgina té title, description, canonical, Open Graph i schema.
+- la web té ES/EN i enllaçat intern.
+
+ACTUALITZACIÓ:
+- La web té fallback local amb 104 brawlers.
+- També intenta carregar dades live des de BrawlAPI al navegador.
+- Si la API falla, la web continua funcionant i no es trenquen fotos ni builds.
