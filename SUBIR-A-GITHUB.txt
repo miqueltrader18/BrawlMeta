@@ -31,7 +31,7 @@ SEO:
 - robots.txt apunta al sitemap.
 - cada pàgina té title, description, canonical, Open Graph i schema.
 - la web té ES/EN i enllaçat intern.
-
+Deploy inicialDeploy inicial
 ACTUALITZACIÓ:
 - La web té fallback local amb 104 brawlers.
 - També intenta carregar dades live des de BrawlAPI al navegador.
