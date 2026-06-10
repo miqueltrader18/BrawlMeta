@@ -1,0 +1,9 @@
+{
+  "name": "Brawl Meta",
+  "short_name": "Brawl Meta",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#130701",
+  "theme_color": "#ff7a2f",
+  "description": "Best Brawl Stars builds, tier list and win rates."
+}
