@@ -699,7 +699,7 @@ const IMAGE_OVERRIDES = {
 };
 
 const SITE_INFO = {
-  domain: "https://brawlmeta.vercel.app",
+  domain: "https://brawlmeta.net",
   lastManualUpdate: "2026-06-10",
   staticRosterCount: 104
 };

@@ -18,21 +18,41 @@ IMPORTANT:
   build.html?b=starr-nova
 
 PROVES DESPRÉS DEL DEPLOY:
-https://brawlmeta.vercel.app/index.html
-https://brawlmeta.vercel.app/tier.html
-https://brawlmeta.vercel.app/top10.html
-https://brawlmeta.vercel.app/build.html?b=shelly
-https://brawlmeta.vercel.app/build.html?b=bolt
-https://brawlmeta.vercel.app/build.html?b=damian
-https://brawlmeta.vercel.app/build.html?b=starr-nova
+https://brawlmeta.net/index.html
+https://brawlmeta.net/tier.html
+https://brawlmeta.net/top10.html
+https://brawlmeta.net/build.html?b=shelly
+https://brawlmeta.net/build.html?b=bolt
+https://brawlmeta.net/build.html?b=damian
+https://brawlmeta.net/build.html?b=starr-nova
 
 SEO:
 - sitemap.xml inclou pàgines principals i 104 URLs de build.
 - robots.txt apunta al sitemap.
 - cada pàgina té title, description, canonical, Open Graph i schema.
 - la web té ES/EN i enllaçat intern.
-Deploy inicialDeploy inicial
+
 ACTUALITZACIÓ:
 - La web té fallback local amb 104 brawlers.
 - També intenta carregar dades live des de BrawlAPI al navegador.
 - Si la API falla, la web continua funcionant i no es trenquen fotos ni builds.
+
+
+DOMINI FINAL CONFIGURAT:
+https://brawlmeta.net
+
+DESPRÉS DE PUJAR A GITHUB I VERCEL:
+Prova aquestes URLs finals:
+https://brawlmeta.net/index.html
+https://brawlmeta.net/tier.html
+https://brawlmeta.net/top10.html
+https://brawlmeta.net/build.html?b=shelly
+https://brawlmeta.net/build.html?b=bolt
+https://brawlmeta.net/build.html?b=damian
+
+GOOGLE SEARCH CONSOLE:
+Propietat recomanada:
+https://brawlmeta.net/
+
+Sitemap:
+https://brawlmeta.net/sitemap.xml
