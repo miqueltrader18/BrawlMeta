@@ -56,3 +56,13 @@ https://brawlmeta.net/
 
 Sitemap:
 https://brawlmeta.net/sitemap.xml
+
+
+GOOGLE SEARCH CONSOLE - NOVA ETIQUETA:
+La verificació s'ha actualitzat amb:
+<meta name="google-site-verification" content="CeFLlQ7gYDaemRw9oHthLfvwJihbfNQg_ZhRIORz5rQ" />
+
+Després de pujar aquest zip a GitHub i fer deploy a Vercel:
+1. Torna a Google Search Console.
+2. Tria "Etiqueta HTML".
+3. Clica "Verificar".
