@@ -1,0 +1,15 @@
+ADSENSE INSTAL·LAT
+
+S'ha inserit aquest codi AdSense al <head> de totes les pàgines HTML:
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4186344073892741"
+     crossorigin="anonymous"></script>
+
+També s'ha afegit ads.txt:
+google.com, pub-4186344073892741, DIRECT, f08c47fec0942fa0
+
+Passos:
+1. Pujar tot el contingut a GitHub substituint l'anterior.
+2. Esperar el deploy de Vercel.
+3. Comprovar https://brawlmeta.net/ads.txt
+4. Tornar a AdSense i clicar verificar / solicitar revisión.
