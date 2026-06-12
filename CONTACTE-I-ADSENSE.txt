@@ -1,0 +1,19 @@
+CONTACTE I PÀGINES DE CONFIANÇA
+
+He configurat aquestes pàgines amb el correu:
+
+contact@brawlmeta.net
+
+Pàgines:
+- about.html
+- contact.html
+- privacy-policy.html
+
+Important abans d'AdSense:
+1. Crea o activa realment el correu contact@brawlmeta.net.
+2. Comprova que pots rebre emails.
+3. No enviïs AdSense fins que About, Contact i Privacy Policy siguin visibles online.
+4. Prova:
+   https://brawlmeta.net/about.html
+   https://brawlmeta.net/contact.html
+   https://brawlmeta.net/privacy-policy.html

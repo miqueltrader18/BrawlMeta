@@ -226,3 +226,154 @@ select option{background:#1e0b04}
   .links a{font-size:13px;padding:9px}
   .copy{flex-direction:column}
 }
+
+
+/* Clean navigation with dropdowns */
+.nav-item{position:relative;display:flex;align-items:center}
+.nav-item > a{font-weight:850;font-size:14px;opacity:.95;padding:12px 14px;border-right:1px solid rgba(255,255,255,.13)}
+.nav-item.has-dropdown > a:after{content:"▾";font-size:10px;margin-left:8px;color:var(--orange2)}
+.dropdown-menu{
+  position:absolute;top:100%;left:0;min-width:240px;
+  background:rgba(20,7,2,.98);border:1px solid var(--line);border-radius:18px;
+  padding:10px;box-shadow:var(--shadow);display:none;z-index:80
+}
+.dropdown-menu.wide{display:none;grid-template-columns:1fr 1fr;min-width:430px}
+.has-dropdown:hover .dropdown-menu,.has-dropdown:focus-within .dropdown-menu{display:grid}
+.dropdown-menu a{
+  border:0!important;display:block;padding:12px 14px;border-radius:12px;
+  color:var(--text);font-size:13px
+}
+.dropdown-menu a:hover{background:rgba(255,122,47,.15);color:var(--orange2)}
+.links > a.active,.nav-item.active > a{color:var(--orange2)}
+.landing-hero{min-height:calc(100vh - 78px);display:flex;align-items:center}
+.hero-panel{min-height:430px;display:flex;flex-direction:column;justify-content:center}
+.home-cards{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.home-card{
+  padding:24px;border-radius:22px;background:linear-gradient(145deg,rgba(74,30,14,.8),rgba(38,12,5,.76));
+  border:1px solid var(--line-soft);box-shadow:var(--shadow);transition:.18s transform,.18s border
+}
+.home-card:hover{transform:translateY(-4px);border-color:var(--orange)}
+.home-card span{display:inline-flex;width:42px;height:42px;border-radius:12px;background:rgba(255,122,47,.15);align-items:center;justify-content:center;color:var(--gold);font-weight:950;margin-bottom:16px}
+.home-card h3{font-size:24px}
+.mode-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-top:18px}
+.mode-grid a{
+  display:block;padding:16px;border-radius:16px;border:1px solid var(--line-soft);
+  background:rgba(255,255,255,.05);font-weight:950
+}
+.mode-grid a:hover{border-color:var(--orange);background:rgba(255,122,47,.12)}
+.footer{margin-top:60px}
+.footer-grid{display:grid;grid-template-columns:1.25fr .8fr .9fr .9fr;gap:28px;padding:34px 0}
+.footer-grid h4{margin:0 0 12px;color:var(--gold);letter-spacing:1px;text-transform:uppercase;font-size:12px}
+.footer-grid a{display:block;color:#fff;margin:8px 0;font-weight:800}
+.footer-grid p{font-size:14px;color:var(--muted);line-height:1.6}
+.footer-brand{display:inline-block;margin-bottom:12px}
+.muted-small{font-size:13px!important;color:var(--muted2)!important}
+.footer-bottom{border-top:1px solid var(--line-soft);padding:16px 0;color:var(--muted2);font-size:13px;font-weight:800}
+.cookie-banner{
+  position:fixed;left:18px;right:18px;bottom:18px;z-index:200;
+  display:none;align-items:center;justify-content:space-between;gap:18px;
+  background:rgba(20,7,2,.98);border:1px solid var(--line);box-shadow:var(--shadow);border-radius:20px;padding:18px
+}
+.cookie-banner.show{display:flex}
+.cookie-banner p{margin:4px 0 0;font-size:13px;line-height:1.4;color:var(--muted)}
+.cookie-actions{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end}
+.ad-slot{display:none}
+@media(max-width:1100px){
+  .home-cards{grid-template-columns:1fr 1fr}
+  .footer-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:820px){
+  .nav-inner{align-items:flex-start}
+  .links{width:100%;gap:4px}
+  .nav-item{display:block}
+  .dropdown-menu,.dropdown-menu.wide{position:static;min-width:100%;box-shadow:none;margin:4px 0;background:rgba(0,0,0,.22)}
+  .has-dropdown:hover .dropdown-menu,.has-dropdown:focus-within .dropdown-menu{display:grid}
+  .home-cards{grid-template-columns:1fr}
+  .landing-hero{min-height:auto}
+  .cookie-banner{flex-direction:column;align-items:flex-start}
+  .footer-grid{grid-template-columns:1fr}
+}
+
+
+/* --- SpaceX-like portada and visual mode cards --- */
+.spacex-hero{
+  position:relative;min-height:calc(100vh - 78px);display:flex;align-items:center;overflow:hidden;
+  background:
+    radial-gradient(circle at 78% 18%, rgba(255,122,47,.18), transparent 28%),
+    radial-gradient(circle at 20% 0%, rgba(255,255,255,.08), transparent 18%),
+    linear-gradient(180deg, rgba(12,5,2,.92), rgba(20,7,2,.98));
+}
+.spacex-hero .container{position:relative;z-index:2}
+.spacex-glow{
+  position:absolute;right:-10%;top:-10%;width:46vw;height:46vw;border-radius:50%;
+  background:radial-gradient(circle, rgba(255,122,47,.22), transparent 62%);
+  filter:blur(12px);opacity:.9
+}
+.spacex-eyebrow{
+  color:var(--orange2);font-size:12px;font-weight:950;letter-spacing:3px;text-transform:uppercase;margin-bottom:18px
+}
+.spacex-hero h1{
+  font-size:clamp(56px, 10vw, 112px);line-height:.95;max-width:780px;margin:0 0 18px;font-weight:980;letter-spacing:-3px
+}
+.spacex-hero p{
+  font-size:18px;line-height:1.7;max-width:620px;color:var(--muted);margin:0 0 28px
+}
+.spacex-strip{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:0;
+  border-top:1px solid rgba(255,255,255,.1);border-bottom:1px solid rgba(255,255,255,.1)
+}
+.spacex-strip > div{padding:20px 22px;border-right:1px solid rgba(255,255,255,.08)}
+.spacex-strip > div:last-child{border-right:none}
+.spacex-strip span{display:block;color:var(--muted2);font-size:12px;font-weight:900;letter-spacing:1.8px;text-transform:uppercase;margin-bottom:6px}
+.spacex-strip strong{display:block;font-size:26px;font-weight:950}
+.minimal-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.minimal-card{
+  display:block;padding:32px;border-radius:24px;background:linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
+  border:1px solid rgba(255,255,255,.08);min-height:220px;transition:.18s transform,.18s border-color,.18s background
+}
+.minimal-card:hover{transform:translateY(-4px);border-color:var(--orange);background:rgba(255,122,47,.07)}
+.minimal-number{display:inline-flex;width:50px;height:50px;border-radius:14px;align-items:center;justify-content:center;background:rgba(255,122,47,.12);color:var(--gold);font-weight:950;margin-bottom:18px}
+.minimal-card h2{font-size:34px;margin-bottom:10px}
+.minimal-card p{color:var(--muted);max-width:36ch}
+.mode-tiles{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.mode-tile{
+  display:block;padding:24px;border-radius:22px;background:linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
+  border:1px solid rgba(255,255,255,.08);min-height:120px
+}
+.mode-tile:hover{border-color:var(--orange);background:rgba(255,122,47,.08)}
+.mode-tile span{display:block;font-size:28px;font-weight:950;margin-bottom:10px}
+.mode-tile small{display:block;color:var(--muted);font-size:14px;line-height:1.5}
+.mode-brawler-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:18px}
+.mode-brawler-card{
+  border-radius:22px;overflow:hidden;border:1px solid rgba(255,255,255,.08);
+  background:linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02));
+  transition:.18s transform,.18s border-color
+}
+.mode-brawler-card:hover{transform:translateY(-3px);border-color:var(--orange)}
+.mode-brawler-image{
+  height:180px;display:flex;align-items:center;justify-content:center;
+  background:radial-gradient(circle at 50% 30%, rgba(255,122,47,.18), transparent 60%), rgba(0,0,0,.2);
+  border-bottom:1px solid rgba(255,255,255,.08)
+}
+.mode-brawler-image .avatar{
+  width:120px;height:120px;border-radius:26px;
+}
+.mode-brawler-meta{padding:18px}
+.mode-card-label{
+  display:inline-block;font-size:11px;font-weight:950;color:var(--gold);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:8px
+}
+.mode-brawler-meta h3{font-size:24px;margin:0}
+@media(max-width:1100px){
+  .mode-brawler-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:900px){
+  .spacex-strip{grid-template-columns:1fr 1fr}
+  .minimal-grid{grid-template-columns:1fr}
+  .mode-tiles{grid-template-columns:1fr}
+}
+@media(max-width:700px){
+  .spacex-hero{min-height:calc(100vh - 64px)}
+  .spacex-hero h1{letter-spacing:-1.5px}
+  .mode-brawler-grid{grid-template-columns:1fr}
+  .spacex-strip{grid-template-columns:1fr}
+}

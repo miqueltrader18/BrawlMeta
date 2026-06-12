@@ -1,0 +1,43 @@
+CANVIS D'AQUESTA VERSIÓ
+
+1. La home ara és una portada neta.
+   - Ja no apareixen tots els builds de cop a la pàgina principal.
+   - Els builds són a builds.html.
+
+2. Menú nou amb desplegables:
+   - Builds
+   - Best brawlers by mode
+   - Info
+
+3. Els modes de joc ara són visibles:
+   - Solo Showdown
+   - Gem Grab
+   - Brawl Ball
+   - Heist
+   - Hot Zone
+   - Knockout
+   - Bounty
+   - Ranked
+
+4. S'han tret seccions rares tipus "Cómo usar esta guía" amb brawlers sense sentit.
+   - Ara cada pàgina explica què importa en el mode.
+   - Els links són rellevants i tenen context.
+
+5. Footer professional:
+   - About
+   - Contact
+   - Privacy Policy
+   - explicació de fan website
+   - correu contact@brawlmeta.net
+
+6. Cookie banner:
+   - Accept / Reject
+   - link a Privacy Policy
+
+PROVES:
+https://brawlmeta.net/index.html
+https://brawlmeta.net/builds.html
+https://brawlmeta.net/brawl-stars-meta-2026.html
+https://brawlmeta.net/best-brawlers-heist.html
+https://brawlmeta.net/contact.html
+https://brawlmeta.net/privacy-policy.html

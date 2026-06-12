@@ -309,7 +309,7 @@ async function initBuild(){
   const root = document.getElementById('build-root');
   if(!root) return;
   if(!b){
-    root.innerHTML = `<section class="section"><div class="panel"><h1>${t('notFound')}</h1><a class="btn primary" href="index.html#builds">${t('ctaBuilds')}</a></div></section>`;
+    root.innerHTML = `<section class="section"><div class="panel"><h1>${t('notFound')}</h1><a class="btn primary" href="builds.html">${t('ctaBuilds')}</a></div></section>`;
     return;
   }
   const img = getImage(b.api, b.name);
@@ -351,7 +351,7 @@ async function initBuild(){
     </section>
     <section class="section">
       <div class="panel"><div class="section-head"><div><div class="kicker">${t('related')}</div><h2>${currentLang()==='es'?'Sigue navegando':'Keep exploring'}</h2><div class="title-divider"></div></div></div>
-      <div class="actions"><a class="btn primary" href="index.html#builds">Best Builds</a><a class="btn" href="tier.html">Tier List</a><a class="btn" href="top10.html">Top 10</a><a class="btn" href="gem-grab-tier-list.html">Gem Grab</a><a class="btn" href="solo-showdown-tier-list.html">Solo Showdown</a></div></div>
+      <div class="actions"><a class="btn primary" href="builds.html">Best Builds</a><a class="btn" href="tier.html">Tier List</a><a class="btn" href="top10.html">Top 10</a><a class="btn" href="gem-grab-tier-list.html">Gem Grab</a><a class="btn" href="solo-showdown-tier-list.html">Solo Showdown</a></div></div>
     </section>`;
 }
 
@@ -400,7 +400,7 @@ async function initGuide(){
   const content = GUIDE_CONTENT[guide]?.[currentLang()] || GUIDE_CONTENT[guide]?.es;
   if(!root || !content) return;
   document.title = `${content.title} | Brawl Meta`;
-  root.innerHTML = `<section class="hero"><div class="panel"><div class="eyebrow">${content.eyebrow}</div><h1>${content.title}</h1><p>${content.intro}</p><div class="actions"><a class="btn primary" href="index.html#builds">${t('ctaBuilds')}</a><a class="btn" href="tier.html">${t('ctaTier')}</a><a class="btn" href="top10.html">${t('ctaTop10')}</a></div></div></section>
+  root.innerHTML = `<section class="hero"><div class="panel"><div class="eyebrow">${content.eyebrow}</div><h1>${content.title}</h1><p>${content.intro}</p><div class="actions"><a class="btn primary" href="builds.html">${t('ctaBuilds')}</a><a class="btn" href="tier.html">${t('ctaTier')}</a><a class="btn" href="top10.html">${t('ctaTop10')}</a></div></div></section>
   ${content.sections.map(([title,text,links]) => `<section class="section"><div class="panel"><div class="section-head"><div><div class="kicker">${content.eyebrow}</div><h2>${title}</h2><div class="title-divider"></div></div></div><p class="seo-copy">${text}</p><div class="actions">${links.map(slug => `<a class="btn" href="${buildHref(slug)}">${slug.replace(/-/g,' ')}</a>`).join('')}</div></div></section>`).join('')}`;
 }
 async function initDirectory(){
@@ -420,17 +420,52 @@ function updateSeoForCurrentPage(){
     if(meta) meta.content = lang==='es' ? 'Best builds de Brawl Stars para los 104 brawlers: gadgets, habilidades estelares, gears, tier list y Top 10 win rate.' : 'Best Brawl Stars builds for all 104 brawlers: gadgets, star powers, gears, tier list and Top 10 win rate.';
   }
 }
+
+async function initModeCards(){
+  const cards = [...document.querySelectorAll('.mode-brawler-card[data-brawler]')];
+  if(!cards.length) return;
+  const roster = await getRoster();
+  const bySlug = new Map(roster.map(b => [slugify(b.slug || b.name), b]));
+  cards.forEach(card => {
+    const slug = slugify(card.dataset.brawler || '');
+    const b = bySlug.get(slug) || roster.find(x => slugify(x.name) === slug);
+    if(!b) return;
+    const img = getImage(b.api, b.name);
+    const imageWrap = card.querySelector('.mode-brawler-image');
+    if(imageWrap){
+      imageWrap.innerHTML = `<div class="avatar"><img src="${img}" alt="${escapeHtml(b.name)}" loading="lazy" onerror="this.onerror=null;this.src=svgAvatarDataUri('${escapeHtml(b.name)}')"></div>`;
+    }
+    const h3 = card.querySelector('h3');
+    if(h3) h3.textContent = b.name;
+  });
+}
 function routeInit(){
   const page = document.body.dataset.page;
-  if(page === 'home') initHome();
+  if(page === 'home' || page === 'builds') initHome();
   if(page === 'tier') initTier();
   if(page === 'top10') initTop10();
   if(page === 'build') initBuild();
   if(page === 'guide') initGuide();
   if(page === 'directory') initDirectory();
+  if(page === 'mode' || page === 'modehub') initModeCards();
 }
 window.addEventListener('DOMContentLoaded', () => {
   initLang();
   updateSeoForCurrentPage();
   routeInit();
+  initCookieBanner();
 });
+
+
+function initCookieBanner(){
+  const banner = document.getElementById('cookie-banner');
+  if(!banner) return;
+  const saved = localStorage.getItem('bm_cookie_choice');
+  if(!saved) banner.classList.add('show');
+  const close = (choice) => {
+    localStorage.setItem('bm_cookie_choice', choice);
+    banner.classList.remove('show');
+  };
+  banner.querySelector('[data-cookie-accept]')?.addEventListener('click', () => close('accepted'));
+  banner.querySelector('[data-cookie-reject]')?.addEventListener('click', () => close('rejected'));
+}

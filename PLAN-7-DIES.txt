@@ -1,0 +1,24 @@
+PLA DE 7 DIES PER CRÉIXER
+
+Dia 1:
+- Pujar aquest zip a GitHub.
+- Esperar deploy de Vercel.
+- Enviar sitemap si Google no el reprocessa sol.
+- Demanar indexació només de 4-5 pàgines noves principals.
+
+Dies 1-7:
+- Publicar 3 vídeos curts al dia:
+  1) Top 5 brawlers right now
+  2) Best build for Shelly/Bolt/Damian
+  3) Tier list 2026
+- Posar CTA: Full builds at brawlmeta.net
+
+Abans d'AdSense:
+- Revisar About, Contact i Privacy Policy.
+- Configurar email real de contacte.
+- No posar anuncis fins que la web tingui dades i estigui estable.
+
+Objectiu realista:
+- Primer 100 visites/dia.
+- Després 500 visites/dia.
+- Després 1000+ visites/dia.

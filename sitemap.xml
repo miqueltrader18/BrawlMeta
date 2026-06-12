@@ -1,675 +1,759 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://brawlmeta.net/index.html</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://brawlmeta.net/tier.html</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://brawlmeta.net/top10.html</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://brawlmeta.net/build.html</loc>
-    <lastmod>2026-06-10</lastmod>
+    <loc>https://brawlmeta.net/about.html</loc>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/best-brawlers-beginners.html</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://brawlmeta.net/solo-showdown-tier-list.html</loc>
-    <lastmod>2026-06-10</lastmod>
+    <loc>https://brawlmeta.net/best-brawlers-bounty.html</loc>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://brawlmeta.net/gem-grab-tier-list.html</loc>
-    <lastmod>2026-06-10</lastmod>
+    <loc>https://brawlmeta.net/best-brawlers-brawl-ball.html</loc>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://brawlmeta.net/best-brawlers-heist.html</loc>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://brawlmeta.net/best-brawlers-hot-zone.html</loc>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://brawlmeta.net/best-brawlers-knockout.html</loc>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://brawlmeta.net/best-brawlers-ranked.html</loc>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://brawlmeta.net/best-gadgets-brawl-stars.html</loc>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://brawlmeta.net/best-gears-brawl-stars.html</loc>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://brawlmeta.net/best-star-powers-brawl-stars.html</loc>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://brawlmeta.net/brawl-stars-meta-2026.html</loc>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/brawler-directory.html</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://brawlmeta.net/build.html</loc>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://brawlmeta.net/builds.html</loc>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://brawlmeta.net/contact.html</loc>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://brawlmeta.net/gem-grab-tier-list.html</loc>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://brawlmeta.net/index.html</loc>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://brawlmeta.net/privacy-policy.html</loc>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://brawlmeta.net/solo-showdown-tier-list.html</loc>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://brawlmeta.net/tier.html</loc>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://brawlmeta.net/top10.html</loc>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=shelly</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=colt</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=bull</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=brock</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=barley</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=nita</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=el-primo</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=poco</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=rosa</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=rico</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=jessie</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=dynamike</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=darryl</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=penny</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=tick</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=carl</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=8-bit</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=jacky</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=gus</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=bo</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=piper</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=pam</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=frank</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=bibi</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=bea</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=emz</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=gale</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=nani</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=colette</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=edgar</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=stu</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=belle</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=grom</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=griff</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=ash</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=lola</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=bonnie</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=sam</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=mandy</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=maisie</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=hank</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=pearl</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=larry-lawrie</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=angelo</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=berry</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=shade</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=meeple</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=trunk</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=bolt</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=mortis</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=tara</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=gene</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=mr-p</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=max</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=sprout</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=lou</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=byron</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=ruffs</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=squeak</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=buzz</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=fang</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=eve</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=janet</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=otis</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=buster</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=gray</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=r-t</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=willow</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=doug</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=chuck</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=charlie</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=mico</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=melodie</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=lily</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=clancy</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=moe</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=juju</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=ollie</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=lumi</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=finx</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=jae-yong</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=alli</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=mina</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=ziggy</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=gigi</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=glowy</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=najia</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=damian</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=starr-nova</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=spike</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=crow</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=leon</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=sandy</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=surge</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=amber</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=meg</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=chester</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=cordelius</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=kit</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=draco</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=kenji</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=pierce</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=kaze</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brawlmeta.net/build.html?b=sirius</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.7</priority>
   </url>
 </urlset>
